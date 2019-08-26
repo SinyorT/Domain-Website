@@ -1,0 +1,93 @@
+@media only screen and (max-width: 990px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #bicon {
+        display: none;
+    }
+
+    .user-menu-mobile {
+        display: block !important;
+        position: absolute;
+        right: 80px;
+        background-color: #f6f7fa;
+        top: 13px;
+    }
+
+    .user-menu-mobile2 {
+        top: 12px;
+        display: block !important;
+        position: absolute;
+        border: 1px solid #7c7c7d;
+        border-radius: 3px;
+        right: 130px;
+        background-color: #f6f7fa;
+        color: #333;
+    }
+    .footer .col-md-3{
+            text-align: center;
+        } 
+    @media only screen and (max-width: 375px) {
+    .user-menu-mobile {
+        
+    }
+    .user-menu-mobile2 {
+        display: none!important;
+    }
+     #bicon{
+        display: block!important;
+    }
+    #bicon #web-login{
+        display: none!important;
+    }
+        .footer .col-md-3{
+            display: none;
+        } 
+        .footer .col-sm-12{
+            display: block;
+            text-align: center;
+        } 
+        
+        
+}
+
+
+    .top-header {
+        background-color: #222;
+        padding: 5px 40px;
+        height: 39px !important;
+    }
+
+    .text-green {
+        color: #81bc00;
+        font-size: 13px !important;
+    }
+
+    .text-green a {
+        text-decoration: none;
+    }
+
+    .text-bold {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .top-bar-menu li {
+        display: none;
+    }
+
+    .btn-review span {
+        display: none;
+    }
+
+    .col-md-12 .input-group {
+        padding-bottom: 30px;
+    }
+
+    .domain-list-container {
+        display: none;
+    }
+
+}
